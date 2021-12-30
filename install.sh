@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "==========================================================="
-echo "             install fonts                                 "
+echo "             installing fonts                              "
 echo "-----------------------------------------------------------"
 mkdir "${HOME}/.fonts"
 cp ./fonts/* "${HOME}/.fonts"
