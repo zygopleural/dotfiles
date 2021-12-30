@@ -3,8 +3,8 @@
 echo "==========================================================="
 echo "             installing fonts                              "
 echo "-----------------------------------------------------------"
-mkdir "${HOME}/.fonts"
-cp ./fonts/* "${HOME}/.fonts"
+mkdir -pv "/usr/local/share/fonts/truetype/MesloLGS NF"
+cp -v ./fonts/* "/usr/local/share/fonts/truetype/MesloLGS NF/"
 
 echo "==========================================================="
 echo "             cloning zsh-autosuggestions                   "
