@@ -7,6 +7,13 @@ mkdir -pv "/usr/local/share/fonts/MesloLGS NF"
 cp -v ./fonts/* "/usr/local/share/fonts/MesloLGS NF/"
 
 echo "==========================================================="
+echo "             cloning zsh-nvm                               "
+echo "-----------------------------------------------------------"
+git clone --depth=1 \
+    https://github.com/zsh-users/zsh-nvm \
+    "${HOME}/.oh-my-zsh/custom/plugins/zsh-nvm"
+
+echo "==========================================================="
 echo "             cloning zsh-autosuggestions                   "
 echo "-----------------------------------------------------------"
 git clone --depth=1 \

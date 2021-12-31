@@ -8,7 +8,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git nvm zsh-nvm zsh-autosuggestions zsh-syntax-highlighting)
 
 SH_DISABLE_COMPFIX="true"
 
