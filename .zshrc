@@ -21,6 +21,8 @@ DISABLE_UPDATE_PROMPT="true"
 
 setopt AUTO_CD
 
+hash -d m=~/code/nous/monorepo
+
 alias yd="yarn dev"
 alias ys="yarn storybook"
 alias yf="yarn format"
